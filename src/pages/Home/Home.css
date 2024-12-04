@@ -1,0 +1,26 @@
+.sklt{
+    width: 300px;
+    padding: 10px;
+    height: 380px;
+    box-shadow: 0 0 10px 10px rgb(199, 191, 191);
+   position: relative;
+}
+
+  .card{
+    display: grid;
+    
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 20px;
+  
+  }
+  @media (max-width: 868px) {
+    .card {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        grid-template-columns: 1fr;
+    }
+}

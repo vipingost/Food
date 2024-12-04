@@ -1,0 +1,23 @@
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    scale: .9;
+}
+.btnn{
+    margin-top: 10px;
+    margin-right: 15px;
+
+    position:absolute;
+    top: 0;
+    right: 0;
+
+}

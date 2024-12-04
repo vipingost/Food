@@ -1,0 +1,45 @@
+.container{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cardlist{
+  
+  padding: 10px;
+  box-shadow: 0 0 10px 10px rgb(199, 191, 191);
+ 
+}
+
+.cardlist img{
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+.title{
+  max-height: 50px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+.title::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.para{
+ 
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: scroll;
+  
+}
+.para::-webkit-scrollbar {
+  display: none;
+}
+
+.loader{
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  size: 500px;
+  
+}

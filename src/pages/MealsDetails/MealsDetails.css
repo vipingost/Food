@@ -1,0 +1,61 @@
+.meal-details {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.back-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+    scale: .9;
+}
+
+.meal-header {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.meal-image {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.meal-image:hover{
+    border-radius: 30px;
+    scale: .8;
+}
+.meal-info h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.meal-info p {
+    margin: 5px 0;
+}
+
+.meal-instructions,
+.meal-ingredients {
+    margin-top: 20px;
+}
+
+.meal-ingredients ul {
+    list-style: none;
+    padding: 0;
+}
+
+.meal-ingredients li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
